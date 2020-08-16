@@ -1,0 +1,98 @@
+
+
+<center>
+<div class="card card-body w-100 bg-primary">
+  <h5>Expenses</h5>
+  <form action="/calculate" method="POST">
+  <div class="form-group">
+     <!--<label for="title">Title</label>-->
+      <input type="text "class="form-control w-50" name="title" >
+    </div>
+    <div class="form-group">
+      <label for="type"><b>Account Type</b></label>
+      <select name="type" >
+        <option value="+">credit</option>
+        <option value="-">debit</option>
+        {{!-- <option value="expense">Expenses</option> --}}
+      </select>
+    </div>
+  
+    <div class="form-group">
+      <label for="amount">Enter Amount</label>
+      <input type="text "class="form-control w-50" name="amount" >
+    </div>
+   
+    <button type="submit" class="btn btn-dark">Add Amount</button>
+    <!--<button type="reset" class="btn btn-primary">Reset</button>-->
+  </form>
+</div>
+</div>
+</center> 
+
+
+
+
+
+
+
+
+
+
+{{!-- <div><h2><center><i>Budget Calculator</i></center></h2></div>
+<div class="container d-inline-flex" >
+
+<div class="jumbotron m-2">
+<form action="/calculate/addincome" method="POST" >
+<h4>Income</h4>
+<b>Add Amount:</b><br>
+<input type="number" name="amount"><br><br>
+<br>
+<br>
+<br>
+<input type="submit" class="btn btn-primary" value="Update Income" name="credit">
+</form>
+</div>
+
+<div class="jumbotron m-2">
+<form>
+<h4>Expenses</h4>
+<b>Expense Name:</b><br>
+<select name="expenses">
+	<option>Cable/Satellite
+	<option>Electricity
+	<option>Garbage
+	<option>Gas
+	<option>Health Club
+	<option>Internet
+	<option value="Loan Payment">Loan Payment
+ <option>Newspaper
+	<option>Telephone
+	<option>Rent
+  <option>Water
+</select>
+<br>
+<br>
+<b>Expense Amount:</b><br>
+<input type="number" name="expamount">
+<br><br>
+<input type="submit" class="btn btn-primary" value="Add Expense" >
+</form>
+</div>
+
+<div class="jumbotron m-2">
+ <h4>Your Balance</h4>
+  <b>Total Income:</b><br>
+<input type="number" name="totalamount" readonly>
+<br>
+<b>Total Expenses:</b><br>
+<input type="number" name="totalexpamount"readonly>
+<br>
+<b>Left Over:</b><br>
+<input type="number" name="leftamount" readonly>
+</div>
+
+</div>
+ --}}
+
+ 
+

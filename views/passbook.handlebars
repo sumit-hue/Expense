@@ -1,0 +1,101 @@
+<!--<center>
+<div class="card card-body w-200">
+  <h3>Expenses</h3>
+  <form action="/calculate" method="POST">
+  <div class="form-group">
+      <!--<label for="title">Title</label>-->
+     <!-- <input type="text "class="form-control w-50" name="title" >
+    </div>
+    <div class="form-group">
+      <label for="type"><b>Select Type</b></label>
+      <select name="type" >
+        <option value="+">credit</option>
+        <option value="-">debit</option>
+         
+                 
+        {{!-- <option value="expense">Expenses</option> --}}
+      </select>
+    </div>
+  
+    <div class="form-group">
+      <label for="amount">Enter Amount</label>
+      <input type="text "class="form-control w-50" name="amount" >
+    </div>
+   
+    <button type="submit" class="btn btn-dark">Add Amount</button>
+  <button type="reset" class="btn btn-primary">Reset</button>
+  </form>
+</div>
+</center> 
+<br>-->
+
+
+
+<div class="bg-blue">
+  <form>
+  
+  <center>
+  <h5>Amount Details : {{title}}</h5>
+ <div class="d-flex" style="justify-content: space-around;">
+ <div>
+  <b>Total Income</b><br>
+<span>{{creditTotal}}</span>
+</div>
+
+<div class="ml-50">
+<b>Debit Amount</b><br>
+<span>{{debitTotal}}</span>
+</div>
+
+<div class="ml-50">
+<b>credit Amount</b><br>
+<span>{{creditTotal}}</span>
+</div>
+
+<div class="ml-50">
+<b>Main Balance</b><br>
+<span>{{leftTotal}}</span>
+</div>
+
+
+</div>
+
+</center>
+</form>
+<br>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{!-- <div class="jumbotron m-2">
+ <h4>Your Balance</h4>
+  <b>Total Income:</b><br>
+<input type="number" name="totalamount" value={{budget.amount}} readonly>
+<br>
+<b>Total Expenses:</b><br>
+<input type="number" name="totalexpamount"readonly>
+<br>
+<b>Left Over:</b><br>
+<input type="number" name="leftamount" readonly>
+</div> --}}
